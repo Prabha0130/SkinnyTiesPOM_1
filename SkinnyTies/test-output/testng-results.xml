@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30735" started-at="2021-05-07T09:49:50Z" finished-at="2021-05-07T09:50:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30735" started-at="2021-05-07T09:49:50Z" finished-at="2021-05-07T09:50:21Z">
+      <class name="com.qa.skinyties.testscript.CartTest">
+        <test-method status="PASS" signature="SetupReport()[pri:0, instance:com.qa.skinyties.testscript.CartTest@3ffc5af1]" name="SetupReport" is-config="true" duration-ms="255" started-at="2021-05-07T15:19:50Z" finished-at="2021-05-07T15:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupReport -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.skinyties.testscript.CartTest@3ffc5af1]" name="setup" is-config="true" duration-ms="10856" started-at="2021-05-07T15:19:50Z" finished-at="2021-05-07T15:20:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePage()[pri:1, instance:com.qa.skinyties.testscript.CartTest@3ffc5af1]" name="verifyHomePage" duration-ms="3983" started-at="2021-05-07T15:20:01Z" finished-at="2021-05-07T15:20:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="verifyAvailProduct()[pri:2, instance:com.qa.skinyties.testscript.CartTest@3ffc5af1]" name="verifyAvailProduct" duration-ms="8713" started-at="2021-05-07T15:20:05Z" finished-at="2021-05-07T15:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailProduct -->
+        <test-method status="PASS" signature="VerifyAddToCart()[pri:3, instance:com.qa.skinyties.testscript.CartTest@3ffc5af1]" name="VerifyAddToCart" duration-ms="3754" started-at="2021-05-07T15:20:14Z" depends-on-methods="com.qa.skinyties.testscript.CartTest.verifyAvailProduct" finished-at="2021-05-07T15:20:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddToCart -->
+        <test-method status="PASS" signature="VerifyRemoveTieFromCart()[pri:4, instance:com.qa.skinyties.testscript.CartTest@3ffc5af1]" name="VerifyRemoveTieFromCart" duration-ms="2034" started-at="2021-05-07T15:20:17Z" finished-at="2021-05-07T15:20:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRemoveTieFromCart -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:com.qa.skinyties.testscript.CartTest@3ffc5af1]" name="flush" is-config="true" duration-ms="1359" started-at="2021-05-07T15:20:19Z" finished-at="2021-05-07T15:20:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method status="PASS" signature="reportFlush()[pri:0, instance:com.qa.skinyties.testscript.CartTest@3ffc5af1]" name="reportFlush" is-config="true" duration-ms="304" started-at="2021-05-07T15:20:21Z" finished-at="2021-05-07T15:20:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- com.qa.skinyties.testscript.CartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
